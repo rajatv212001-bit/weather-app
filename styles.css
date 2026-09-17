@@ -1,0 +1,49 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  min-height: 100vh;
+  background-image: url('wp3948170-eiffel-tower-4k-wallpapers.jpg');
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  padding: 150px;
+}
+
+  
+
+#weather-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 50px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+}
+
+#weather-wrapper h1 {
+  color: #f4c542;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#weather-data {
+  color: white;
+  margin-top: 20px;
+}
+
+#weather-data h2 {
+  color: #f4c542;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#weather-data p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
